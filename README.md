@@ -1,4 +1,4 @@
-![Example Image](https://github.com/stangandaho/predictors-gathering/blob/main/predictors.jpeg)  
+![Environmental Predictors Plot](https://github.com/stangandaho/predictors-gathering/blob/main/predictors.jpeg)  
 This R script details the methodology employed to gather environmental predictor variables essential for White-backed Vulture (WbV) distribution modeling across Kruger National Park. The process involves multiple steps, including the acquisition and preprocessing of geospatial data representing various environmental factors. The gathered predictor variables encompass Digital Surface Model (DSM), distances to nearest water bodies and roads, Land Surface Temperature (LST), Normalized Difference Vegetation Index (NDVI), and Land Use and Land Cover (LULC) information. The script utilizes several R packages such as `terra`, `sf`, and `dplyr` for efficient data manipulation and raster/vector processing. Each step is documented, ensuring reproducibility and transparency in the analysis.
 
 _
