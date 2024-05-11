@@ -1,0 +1,85 @@
+DOI: https://doi.org/10.5069/G9028PQB
+OT Collection ID: OT.032021.4326.1
+OT Collection Name: Copernicus Global Digital Elevation Models
+Short Name: COP30, COP90
+Collection Platform: Satellite Data
+
+----------------------------------------------------------
+
+Download and Access Products: 
+	1. Raster
+		opentopoID: OTSDEM.032021.4326.3
+		Data Processing: https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3
+
+	2. Raster
+		opentopoID: OTSDEM.032021.4326.1
+		Data Processing: https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.1
+
+
+----------------------------------------------------------
+
+Collection Overview: 
+The Copernicus DEM is a Digital Surface Model (DSM) which represents the surface of the Earth including buildings, infrastructure and vegetation. This DSM is derived from an edited DSM named WorldDEM, where flattening of water bodies and consistent flow of rivers has been included. In addition, editing of shore- and coastlines, special features such as airports, and implausible terrain structures has also been applied.
+
+The WorldDEM product is based on the radar satellite data acquired during the TanDEM-X Mission, which is funded by a Public Private Partnership between the German State, represented by the German Aerospace Centre (DLR) and Airbus Defence and Space. OpenTopography is providing access to the global 30m (GLO-30) and 90m (GLO-90) DSM through the public AWS S3 bucket established by Sinergise.   
+
+Note: 
+
+GLO-30 coverage is not entirely global because a small subset of tiles covering specific countries are not yet released to the public by the Copernicus Programme.  See the AWS landing page  for details on which countries are excluded.
+In the original datasets (available via OpenTopography bulk download or the Sinergise aws bucket), the longitudinal spacing of cells increases as a function of latitude for latitudes north of 50N and south of 50S.  See the original documentation  for details.  However, in order to keep the pixel dimensions uniform, OpenTopography resamples data north of 50 degrees latitude and south of -50 degrees latitude in order to output a consistent 30m or 90m product for data accessed through the web-interface or API.
+GLO-30 and GLO-90 are available on a free basis for the general public under the terms and conditions of the License found here
+
+
+Dataset Acknowledgement: Data have been provided by Sinergise via a public AWS S3 bucket that can be accessed here.
+
+Dataset Citation: European Space Agency, Sinergise (2021).  <i>Copernicus Global Digital Elevation Model</i>.  Distributed by OpenTopography.  https://doi.org/10.5069/G9028PQB. Accessed: 2024-05-08
+
+Use License: © DLR e.V. (2014-2018) and © Airbus Defence and Space GmbH 2022 provided under COPERNICUS by the European Union and ESA; all rights reserved.
+
+Dataset Keywords: Copernicus, ESA, DSM, Sinergise, AWS, TanDEM-X, DLR, SAR, Airbus, lidar
+
+Survey Date: 01/01/2011 - 07/01/2015
+Publication Date: 04/22/2021
+
+----------------------------------------------------------
+
+Data Provider and Roles:
+	1. European Space Agency
+	Role: Funder
+	Url: https://www.esa.int/
+
+	2. German Aerospace Centre
+	Role: Partner
+	Url: https://www.dlr.de/EN/Home/home_node.html
+
+	3. Airbus Defence and Space
+	Role: Partner
+	Url: https://www.airbus.com/space.html
+
+
+----------------------------------------------------------
+
+Total number of points: N/A
+
+Area: 146,540,912 km^2
+
+Point Density: N/A
+
+Coordinates System: 
+	Horizontal: WGS84 [EPSG: 4326]
+	Vertical: EGM2008 [EPSG: 3855]
+
+Survey Report: https://object.cloud.sdsc.edu:443/v1/AUTH_opentopography/www/metadata/Copernicus_metadata.pdf
+
+
+----------------------------------------------------------
+
+Dataset Extent in KMZ format: https://portal.opentopography.org/getKml?otCollectionID=OT.032021.4326.1&download=true
+
+Dataset Spatial Bounds:
+	North: 84.00041666666667°
+	South: -89.99958333323914°
+	East: 179.99935947933523°
+	West: -180.00416666666666°
+
+

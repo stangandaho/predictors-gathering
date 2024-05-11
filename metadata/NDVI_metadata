@@ -1,0 +1,158 @@
+START metadata
+    START idinfo
+        START citation
+            origin =    USGS EROS;
+            pubdate =   Fri Feb 03 06:02:01 2023;
+            title =     USGS eVIIRS Global NDVI 10-Day Composite;
+        END citeinfo
+
+        START descript
+            abstract =  Global composite of the last 10 day eVIIRS interval produced every 5 days;
+            purpose =   Historical and Operational Vegetation Monitoring;
+        END descript
+
+        START keywords
+            START theme
+                themekey =  See eVIIRS in NASA GCMD;
+            END theme
+            START place
+                placekey =  Global NDVI;
+            END place
+            START temporal
+                tempkey =   10-day interval produced every 5 days;
+            END temporal
+        END keywords
+
+        accconst =  None;
+        useconst =  None;
+    END idinfo
+
+    START spdoinfo
+        direct =    Raster;
+        START rastinfo
+            rasttype =  Pixel;
+            rowcount =  14505;
+            colcount =  37298;
+        END rastinfo
+    END spdoinfo
+
+    START spref
+        START horizsys
+            START planar
+                START gridsys
+                    gridsysn =  other grid system;
+                    START geographic
+                        longcm =    80.5000000;
+                        latprjo =   30.5000000;
+                    END geographic
+                END gridsys
+            END planar
+        END horizsys
+        START geodetic
+            horizdn =   WGS84;
+        END geodetic
+    END spref
+
+    START eainfo
+        START attr
+            attrlabl =  Pixel Resolution;
+            attrdef =   1000 meter;
+        END attr
+        START attr
+            attrlabl =  Platform;
+            attrdef =   SUOMI NPP;
+        END attr
+        START attr
+            attrlabl =  Sensor Short Name;
+            attrdef =   VIIRS;
+        END attr
+        START attr
+            attrlabl =  Sensor Long Name;
+            attrdef =   Visible Infrared Imaging Radiometer Suite;
+        END attr
+        START attr
+            attrlabl =  Day Night;
+            attrdef =   Day;
+        END attr
+        START attr
+            attrlabl =  Processing Level;
+            attrdef =   NDVI Composite;
+        END attr
+        START attr
+            attrlabl =  Data Type;
+            attrdef =   Little endian signed 16-bit integer;
+        END attr
+        START attr
+            attrlabl =  Fill Value;
+            attrdef =   -2000;
+        END attr
+        START attr
+            attrlabl =  Scaling Factor;
+            attrdef =   0.02;
+        END attr
+        START attr
+            attrlabl =  Upper Left Latitude;
+            attrdef =   80.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Left Longitude;
+            attrdef =   -180.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Right Latitude;
+            attrdef =   80.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Right Longitude;
+            attrdef =   180.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Right Latitude;
+            attrdef =   -60.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Right Longitude;
+            attrdef =   180.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Left Latitude;
+            attrdef =   -60.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Left Longitude;
+            attrdef =   -180.0000000;
+        END attr
+        START attr
+            attrlabl =  Center Latitude;
+            attrdef =   10.0;
+        END attr
+        START attr
+            attrlabl =  Center Longitude;
+            attrdef =   0.0;
+        END attr
+        START attr
+            attrlabl =  NDVI Max;
+            attrdef =   10000;
+        END attr
+        START attr
+            attrlabl =  NDVI Min;
+            attrdef =   -1999;
+        END attr
+        START attr
+            attrlabl =  Compositing Interval;
+            attrdef =   10-day;
+        END attr
+    END eainfo
+
+    START timeinfo
+        START rngdates
+            begdate =   2023-01-21;
+            enddate =   2023-01-31;
+        END rngdates
+    END timeinfo
+
+    START software
+        type = eVIIRS
+        version = 4.1
+    END software
+END metadata

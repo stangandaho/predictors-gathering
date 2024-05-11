@@ -1,0 +1,155 @@
+START metadata
+    START idinfo
+        START citation
+            origin =    USGS EROS;
+            pubdate =   Sun Mar 05 01:33:18 2023;
+            title =     USGS eVIIRS Global 10-day Land Surface Temperature product;
+        END citeinfo
+
+        START descript
+            abstract =  Global Land Surface Temperature produced every 10 days;
+            purpose =   Historical and Operational Land Surface Temperature;
+        END descript
+
+        START keywords
+            START place
+                placekey =  Global;
+            END place
+            START temporal
+                tempkey =   10-day interval produced every 10 days;
+            END temporal
+        END keywords
+
+        accconst =  None;
+        useconst =  None;
+    END idinfo
+
+    START spdoinfo
+        direct =    Raster;
+        START rastinfo
+            rasttype =  Pixel;
+            rowcount =  14505;
+            colcount =  37298;
+        END rastinfo
+    END spdoinfo
+
+    START spref
+        START horizsys
+            START planar
+                START gridsys
+                    gridsysn =  other grid system;
+                    START geographic
+                        longcm =    0;
+                        latprjo =   0;
+                    END geographic
+                END gridsys
+            END planar
+        END horizsys
+        START geodetic
+            horizdn =   WGS84;
+        END geodetic
+    END spref
+
+    START eainfo
+        START attr
+            attrlabl =  Pixel Resolution;
+            attrdef =   1000 meter;
+        END attr
+        START attr
+            attrlabl =  Platform;
+            attrdef =   SUOMI NPP;
+        END attr
+        START attr
+            attrlabl =  Sensor Short Name;
+            attrdef =   VIIRS;
+        END attr
+        START attr
+            attrlabl =  Sensor Long Name;
+            attrdef =   Visible Infrared Imaging Radiometer Suite;
+        END attr
+        START attr
+            attrlabl =  Day Night;
+            attrdef =   Day;
+        END attr
+        START attr
+            attrlabl =  Processing Level;
+            attrdef =   LST Product;
+        END attr
+        START attr
+            attrlabl =  Data Type;
+            attrdef =   Little endian unsigned 16-bit integer;
+        END attr
+        START attr
+            attrlabl =  Fill Value;
+            attrdef =   0;
+        END attr
+        START attr
+            attrlabl =  Scaling Factor;
+            attrdef =   0.02;
+        END attr
+        START attr
+            attrlabl =  Upper Left Latitude;
+            attrdef =   80.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Left Longitude;
+            attrdef =   -180.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Right Latitude;
+            attrdef =   80.0000000;
+        END attr
+        START attr
+            attrlabl =  Upper Right Longitude;
+            attrdef =   180.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Right Latitude;
+            attrdef =   -60.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Right Longitude;
+            attrdef =   180.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Left Latitude;
+            attrdef =   -60.0000000;
+        END attr
+        START attr
+            attrlabl =  Lower Left Longitude;
+            attrdef =   -180.0000000;
+        END attr
+        START attr
+            attrlabl =  Center Latitude;
+            attrdef =   10.0;
+        END attr
+        START attr
+            attrlabl =  Center Longitude;
+            attrdef =   0.0;
+        END attr
+        START attr
+            attrlabl =  LST Max;
+            attrdef =   65535;
+        END attr
+        START attr
+            attrlabl =  LST Min;
+            attrdef =   7500;
+        END attr
+        START attr
+            attrlabl =  Compositing Interval;
+            attrdef =   10-day;
+        END attr
+    END eainfo
+
+    START timeinfo
+        START rngdates
+            begdate =   2023-01-21;
+            enddate =   2023-01-31;
+        END rngdates
+    END timeinfo
+
+    START software
+        type = eVIIRS
+        version = 4.1
+    END software
+END metadata
